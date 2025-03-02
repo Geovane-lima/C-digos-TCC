@@ -1,2 +1,63 @@
-# C-digos-TCC
+# Códigos-TCC
 Códigos desenvolvidos para simulação de ataque DDoS na rede Blockchain criada
+
+# Projeto de TCC - Blockchain e Ataque DDoS
+
+Este repositório contém o código do meu Trabalho de Conclusão de Curso (TCC) na área de **Blockchain e Ataque DDoS**. O objetivo do projeto é simular um servidor Blockchain e realizar um ataque DDoS a esse servidor para estudar as implicações de segurança. O código é dividido em diversas classes responsáveis pela criação da Blockchain, simulação do ataque DDoS, e pela interação com o usuário.
+
+## Classes Criadas
+
+### 1. **Classe `Main`**
+   A classe principal do projeto contém a lógica de interação com o usuário, incluindo o menu de opções. Ela permite:
+   - Iniciar o servidor Blockchain.
+   - Criar a Blockchain.
+   - Simular um Ataque DDoS ao servidor.
+
+### 2. **Classe `Blockchain`**
+   A classe `Blockchain` gerencia a criação e manipulação da cadeia de blocos. Ela é responsável por:
+   - Criar e adicionar blocos à blockchain.
+   - Processar transações.
+   - Minerar blocos com uma dificuldade ajustável.
+   - Exibir estatísticas sobre a blockchain, como blocos criados, taxa de hash e eficiência.
+
+### 3. **Classe `Bloco`**
+   A classe `Bloco` é usada para representar um único bloco na cadeia de blocos da Blockchain. Cada bloco contém:
+   - Transações.
+   - O hash do bloco anterior.
+   - Um nonce para permitir a mineração do bloco.
+
+### 4. **Classe `AtaqueDDoS`**
+   A classe `AtaqueDDoS` simula um ataque DDoS enviando múltiplas transações maliciosas para o servidor Blockchain.
+
+### 5. **Classe `Server`**
+   A classe `Server` cria um servidor web usando o Flask para hospedar a Blockchain e permitir que transações sejam enviadas para a rede. Além disso, possui rotas para:
+   - Verificar o status do servidor.
+   - Adicionar transações.
+   - Exibir métricas do servidor (número de requisições, tempo médio de processamento, etc).
+   - Retornar a cadeia de blocos.
+
+### 6. **Classe `Transacao`**
+   A classe `Transacao` define uma transação com remetente, destinatário e valor. Além disso, permite assinar a transação para garantir sua integridade.
+
+## Requisitos
+
+Para rodar este código em sua máquina, você precisará instalar as seguintes dependências:
+
+- `Flask` - Para o servidor web.
+- `prettytable` - Para exibir estatísticas da blockchain em formato de tabela.
+- `openpyxl` - Para exportar a blockchain para planilhas Excel.
+- `pycryptodome` - Para manipulação de chaves e assinaturas digitais.
+- `hashlib` - Para criar os hashes dos blocos.
+  
+Você pode instalar as dependências necessárias usando o `pip`. Basta rodar o seguinte comando no terminal:
+
+```bash
+pip install flask prettytable openpyxl pycryptodome
+
+
+### Detalhes importantes:
+- **Instalação das bibliotecas**: Você pode incluir mais bibliotecas, caso o seu projeto utilize outras.
+- **Execução do código**: Inclui etapas claras para compilar e executar os scripts.
+- **Contribuições e Licença**: A parte de contribuições e licença é um padrão, caso queira modificar ou adicionar mais informações específicas, fique à vontade.
+
+Espero que isso ajude a documentar corretamente seu repositório no GitHub!
