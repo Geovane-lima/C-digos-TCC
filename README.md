@@ -40,6 +40,7 @@ Este repositório contém o código do meu Trabalho de Conclusão de Curso (TCC)
    A classe `Transacao` define uma transação com remetente, destinatário e valor. Além disso, permite assinar a transação para garantir sua integridade.
 
 ## Requisitos
+
 Certifique-se de que você já possui o Python instalado em sua máquina.
 Para rodar este código em sua máquina, você precisará instalar as seguintes dependências:
 
