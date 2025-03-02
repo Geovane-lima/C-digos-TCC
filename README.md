@@ -53,11 +53,3 @@ Você pode instalar as dependências necessárias usando o `pip`. Basta rodar o 
 
 ```bash
 pip install flask prettytable openpyxl pycryptodome
-
-
-### Detalhes importantes:
-- **Instalação das bibliotecas**: Você pode incluir mais bibliotecas, caso o seu projeto utilize outras.
-- **Execução do código**: Inclui etapas claras para compilar e executar os scripts.
-- **Contribuições e Licença**: A parte de contribuições e licença é um padrão, caso queira modificar ou adicionar mais informações específicas, fique à vontade.
-
-Espero que isso ajude a documentar corretamente seu repositório no GitHub!
