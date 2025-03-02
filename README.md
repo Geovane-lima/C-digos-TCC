@@ -1,11 +1,12 @@
-# Códigos-TCC
-Códigos desenvolvidos para simulação de ataque DDoS na rede Blockchain criada
+# Códigos-TCC 🚀
 
-# Projeto de TCC - Blockchain e Ataque DDoS
+Códigos desenvolvidos para simulação de ataque DDoS na rede Blockchain criada 🔐💻
 
-Este repositório contém o código do meu Trabalho de Conclusão de Curso (TCC) na área de **Blockchain e Ataque DDoS**. O objetivo do projeto é simular um servidor Blockchain e realizar um ataque DDoS a esse servidor para estudar as implicações de segurança. O código é dividido em diversas classes responsáveis pela criação da Blockchain, simulação do ataque DDoS, e pela interação com o usuário.
+## Projeto de TCC - Blockchain e Ataque DDoS 🔒⚔️
 
-## Classes Criadas
+Este repositório contém o código do meu Trabalho de Conclusão de Curso (TCC) na área de **Blockchain e Ataque DDoS**. O objetivo do projeto é simular um servidor Blockchain e realizar um ataque DDoS a esse servidor para estudar as implicações de segurança. O código é dividido em diversas classes responsáveis pela criação da Blockchain, simulação do ataque DDoS e interação com o usuário.
+
+## 🛠️ Classes Criadas
 
 ### 1. **Classe `Main`**
    A classe principal do projeto contém a lógica de interação com o usuário, incluindo o menu de opções. Ela permite:
@@ -39,10 +40,9 @@ Este repositório contém o código do meu Trabalho de Conclusão de Curso (TCC)
 ### 6. **Classe `Transacao`**
    A classe `Transacao` define uma transação com remetente, destinatário e valor. Além disso, permite assinar a transação para garantir sua integridade.
 
-## Requisitos
+## 🛠️ Requisitos
 
-Certifique-se de que você já possui o Python instalado em sua máquina.
-Para rodar este código em sua máquina, você precisará instalar as seguintes dependências:
+Certifique-se de que você já possui o Python instalado em sua máquina. Para rodar este código, você precisará instalar as seguintes dependências:
 
 - `Flask` - Para o servidor web.
 - `prettytable` - Para exibir estatísticas da blockchain em formato de tabela.
@@ -54,3 +54,4 @@ Você pode instalar as dependências necessárias usando o `pip`. Basta rodar o 
 
 ```bash
 pip install flask prettytable openpyxl pycryptodome
+
